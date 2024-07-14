@@ -1,0 +1,58 @@
+4.3 Analyzing our clusters and writing a report outlining all of our observations.
+States in the sensitive area: 32 columns total and 140 rows overall
+According to this Cluster, every state has the greatest crime rate.West Bengal, Maharashtra, Andhra Pradesh, Bihar, Gujarat, Karnataka, Madhya Pradesh, Delhi, Uttar Pradesh, and Tamil Nadu Crime against all categories has increased.This indicates that these are the states that have a high crime rate and are not very safe.
+Districts which are not safe are HYDERABAD CITY,AHMEDABAD COMMR, BANGALORE COMMR. ,PATNA , KOLKATA , CYBERABAD ,LUCKNOW PUNE COMMR. ,MUMBAI COMMR. ,24 PARGANAS NORTH INDORE , 24 PARGANAS SOUTH ,THANE COMMR. , JAIPUR ,MUMBAI , MURSHIDABAD ,NORTH-WEST,NADA,AGRA ,CHENNAI ,GHAZIABAD ,SOUTH ,JALPAIGURI ,KANPUR NAGAR ,NORTH WEST ,ALWAR.
+States such as West Bengal, Maharashtra, Andhra Pradesh, Uttar Pradesh, Bihar, Gujarat, Karnataka, Madhya Pradesh, Delhi, Uttar Pradesh, and Tamil Nadu are visible.These are largest states in terms of both population and area . One of the key variables determining the frequency of crime is population. The population is not the only socioeconomic aspect that might affect a location's crime rate. The influence of population is the sole factor considered in the current analysis of crime rate.
+States in a Moderate Area: A total of 33 columns and 2350 rows
+According to this Cluster, a moderate region is one where there are more crimes than peaceful areas but fewer than sensitive areas.
+
+States: Bihar, Gujarat, Uttar Pradesh, West Bengal, Maharashtra, Andhra Pradesh,Karnataka, Rajasthan, Madhya Pradesh, Delhi, Uttar Pradesh, and Tamil Nadu continue to exhibit greater crime rates across all categories, other states included in this dataset include Tripura, Punjab, Jharkhand, Odisha, Haryana, Jammu & Kashmir, and these states show moderate crime rates across all categories.
+States in a peaceful region: 6106 rows total, 33 columns total
+According to this Cluster, a peaceful area is one with less crimes than both sensitive and moderate areas combined.
+
+We discovered that states like West Bengal, Maharashtra, Andhra Pradesh, Uttar Pradesh, Bihar, Gujarat, Karnataka, and Rajasthan have higher crime values whenever there is a greater crime rate in each category. However, in smaller crime states/ Union Territories like Puducherry, Chandigarh, Mizoram, Tripura, Manipur, Goa, Assam, Arunachal Pradesh, Sikkim, Nagaland, Uttarakhand, Daman & Diu, Dadar and Nagar Haveli, A & N Islands, and Lakshdweep began displaying statistics.
+
+When we examined each crime, we found entries from the States with the lowest crime rates since Peacefularea is the dataframe that contains the Lowest Crime Count in Each Category of Crime.
+
+According to the analysis of the aforementioned clusters-
+
+Sensitive States:- Maharashtra, Rajasthan, Uttar Pradesh, DELHI, West Bengal, Tamil Nadu, Andhra Pradesh, Madhya Pradesh, Bihar,
+
+States in the middle: Himachal Pradesh, Uttarakhand, Kerala, Goa, Jharkhand, Karnataka, Chhatisgarh, Haryana, and
+
+Sikkim, Mizoram, Tripura, Manipur, Assam, Nagaland, A & N Islands, Lakshdweep, Meghalaya, and Arunachal Pradesh are peaceful states.
+
+Any country can benefit from literacy, therefore if we educate more people in our community, we can reduce crime rates gradually and improve the quality of life in our nation.
+
+Programs The Indian government, at all levels, periodically releases Welfare Schemes for various segments of the population. These programs may be coordinated by the federal government, state-specific, or a combination of the two.It is possible to assist people become better persons by encouraging them to enroll in these programs.
+
+Numerous programs for the development of women and children, such as Gender Equity and Women's Empowerment, have been announced.Women living in rural areas should be encouraged to participate in programs such as POSHAN Abhiyaan, Anganwadi Services, Pradhan Mantri Matru Vandana Yojana (PMMVY), Beti Bachao Beti Padhao (BBBP), One Stop Center (OSC), Universalization of Women Helplines (WHL), Child Protection Services (CPS), and Scheme for Adolescent Girls (SAG).
+
+4.4 Telling About capstone project in our own words.
+We got four weeks to complete this Capstone project, which is called Crimes in India. Ten CSV files with information on States/UT, districts, years (2001–2012), and different crime heads were already provided to us.We were instructed to gather information on
+
+The people living in every state.
+
+State-by-state Rate of Literacy
+
+Each state's area
+
+At the startt it was thinking process like about about the data collection portion, but as soon as got to work on the project, began to understand and made some assumptions. For example, discovered that the population and literacy rates for each state were only provided for the years 2001 and 2011, so calculated the growth rate to find the population and literacy rates for each state annually.
+
+The examination of the information required to add a few columns which took some time, such as Population in Rural/Urban Area, Overall Male, Overall Female, Population Literacy, Male Literacy, Female Literacy, Area of Each State, and Different Crimes, murders, riots, dowry deaths, rapes, arson, and the total number of crimes committed against women, children, SCs, and STs.
+
+Entered the Second Phase after gathering data for every column from 2001 to 2012.
+
+Phase 2 involved analyzing state-by-state data for various crimes and identifying the states and UT that were more and less likely to experience crime.Several plots and charts were used to analyze the dataset.
+
+Opened the CSV file, saved it in a dataframe, looked for Info() and null values, and then proceeded as necessary.
+
+Became aware of the Python plotly module, which allowed to create incredibly interactive graphs. Plotted various charts, including line, scatter, bar, and scatterplots, and noted the analysis.
+
+In addition, calculated the crime rate in each state between 2001 and 2012.
+
+Data extraction in accordance with the query and table insertion are the topics of Phase 3 of SQL Operations.
+
+Utilized various SQL queries use the my SQL workbench for the SQL queries to obtain the information. Stored the information in a dataframe and examined it further.
+
+In Phase 4, we implement clustering by joining the previously provided files to create a new dataset and using the KMEANS algorithm for clustering.We have three clusters: sensitive, moderate, and peaceful. We also have the reason behind crimes in sensitive states and how to prevent them.
